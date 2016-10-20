@@ -1,0 +1,268 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  color: #999;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 77.85888px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 87.59124px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 91.24088px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 93.43066px;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 131.38686px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 100.72993px;
+  }
+}
+
+@media screen and (min-width: 435px) {
+  html {
+    font-size: 105.83942px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 186.86131px;
+  }
+}
+
+/*个人中心*/
+.geren {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.geren .geren-1 {
+  height: 0.55rem;
+  line-height: 0.55rem;
+  width: 100%;
+  border-bottom: 2px solid #3DBFFA;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.geren .geren-center {
+  height: auto;
+  width: 100%;
+}
+
+.geren .geren-center ul {
+  height: auto;
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+.geren .geren-center ul li {
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+}
+
+.geren .geren-center ul li a {
+  padding: 0;
+  padding-left: 0.2rem;
+  height: 0.6rem;
+}
+
+.geren .geren-center ul li img {
+  height: 0.42rem;
+  width: 0.42rem;
+}
+
+/*账户登录*/
+.zhanghu {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.zhanghu .zhanghu-head {
+  height: 0.55rem;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid #1CB7FD;
+}
+
+.zhanghu .zhanghu-head .zhanghu-headleft {
+  float: left;
+  height: 100%;
+  width: 0.31rem;
+  margin-top: 0.15rem;
+}
+
+.zhanghu .zhanghu-head .zhanghu-headright {
+  float: left;
+  height: 100%;
+  width: 3.8rem;
+  line-height: 0.55rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.zhanghu .zhanghu-center {
+  margin-top: 0.2rem;
+  width: 100%;
+  height: 1rem;
+  padding: 0.1rem 0.15rem;
+  box-sizing: border-box;
+}
+
+.zhanghu .zhanghu-button button {
+  width: 100%;
+  height: 100%;
+}
+
+/*设置*/
+.shezhi {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+}
+
+.shezhi .shezhi-head {
+  width: 100%;
+  height: 0.55rem;
+  overflow: hidden;
+  background:#fff;
+  border-bottom: 2px solid #5CCBFE;
+   position: fixed;
+   z-index: 10;
+  top:0;
+}
+
+.shezhi .shezhi-head .shezhi-headleft {
+  float: left;
+  width: 0.31rem;
+  height: 100%;
+  margin-top: 0.15rem;
+}
+
+.shezhi .shezhi-head .shezhi-headright {
+  float: right;
+  height: 100%;
+  width: 3.8rem;
+  line-height: 0.55rem;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.shezhi .shezhi-ul ul {
+  height: auto;
+  width: 100%;
+  margin-top: 0.53rem;
+}
+
+.shezhi .shezhi-ul ul li {
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  background: #fff;
+}
+
+.shezhi .shezhi-ul ul li a {
+  padding: 0;
+  padding-left: 0.2rem;
+  height: 0.6rem;
+}
+
+.shezhi .shezhi-ul ul li img {
+  height: 0.42rem;
+  width: 0.42rem;
+}
+
+/*观看历史*/
+.view {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.view .view-head {
+  width: 100%;
+  height: 0.55rem;
+  overflow: hidden;
+  border-bottom: 2px solid #5CCBFE;
+}
+
+.view .view-head .view-headleft {
+  float: left;
+  width: 0.31rem;
+  height: 100%;
+  margin-top: 0.15rem;
+}
+
+.view .view-head .view-headcenter {
+  float: left;
+  height: 100%;
+  width: 3.3rem;
+  line-height: 0.55rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.view .view-head .view-headright {
+  float: right;
+  margin-top: 0.1rem;
+  margin-right: 0.1rem;
+  height: 0.3rem;
+  width: 0.4rem;
+  border: 1px solid #ccc;
+  line-height: 0.3rem;
+  text-align: center;
+  color: #000;
+}

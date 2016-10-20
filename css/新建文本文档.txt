@@ -1,0 +1,27 @@
+*{
+padding:0;
+margin:0;
+list-style:none;
+}
+html{
+font-size: 100px;
+height:100%;
+width:100%;
+}
+body{
+	height:100%;
+	width:100%;
+font-size: 14px;
+color:#999;
+}
+@mixin username($size){
+$shebei-list:320px,360px,375px,384px,411px,540px,414px,435px,768px;
+html{
+@each $shebei in $shebei-list{
+@media screen and(min-width: $shebei){
+font-size: 100px * ($shebei/$size);
+}
+}
+}
+}
+@include username(411px);

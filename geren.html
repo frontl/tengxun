@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>搜索</title>
+  <link rel="stylesheet" type="text/css" href="fonts/font/demo.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font/iconfont.css">
+  <link rel="stylesheet" type="text/css" href="css/mui.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/mui.min.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+
+</head>
+<body>
+       <div class="oplo">
+            <ul>
+                <li id="home" class="iconfont">&#xe681;</li>
+                <li id="sousuo" class="iconfont">&#xe660;</li>
+                <li id="person" class="iconfont">&#xe61e;</li>
+            </ul>
+        </div>
+    <div class="geren">
+      <div class="geren-1">个人中心</div>
+        <div class="geren-center">
+          <ul>
+                <li id="denglu" class="mui-table-view-cell">
+                    <a class="mui-navigate-right">登陆</a>
+                </li>
+            </ul>
+            <ul class="mui-table-view">
+                <li class="mui-table-view-cell">
+                    <a class="mui-navigate-right">离线缓存</a>
+                </li>
+                <li id="view-1" class="mui-table-view-cell">
+                    <a class="mui-navigate-right">观看历史</a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a class="mui-navigate-right">收藏</a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a class="mui-navigate-right">更新通知</a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a class="mui-navigate-right">购买记录</a>
+                </li>
+            </ul>
+              <ul>
+                <li class="mui-table-view-cell">
+                    <a id="shezhi" class="mui-navigate-right">设置</a>
+                </li>
+            </ul>
+         
+
+        </div>
+    </div>
+
+<script type="text/javascript">
+    document.getElementById('denglu').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'zhanghu.html',
+          id:'zhanghu.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+      }) 
+       document.getElementById('home').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'demo.html',
+          id:'demo.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+      }) 
+         document.getElementById('view-1').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'view.html',
+          id:'view.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+      })
+      document.getElementById('sousuo').addEventListener('tap',function(){
+       mui.openWindow({
+          url:'sousuo.html',
+          id:'sousuo.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+       })
+
+     })
+     document.getElementById('person').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'geren.html',
+          id:'geren.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+    })
+    document.getElementById('shezhi').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'shezhi.html',
+          id:'shezhi.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+    })
+        </script>
+</body>
+</html>

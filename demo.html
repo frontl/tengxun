@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>app</title>
+  <link rel="stylesheet" type="text/css" href="fonts/font/demo.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font/iconfont.css">
+  <link rel="stylesheet" type="text/css" href="css/mui.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/mui.min.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+</head>
+<body>
+        <div class="oplo">
+            <ul>
+                <li id="home" class="iconfont">&#xe681;</li>
+                <li id="sousuo" class="iconfont">&#xe660;</li>
+                <li id="person" class="iconfont">&#xe61e;</li>
+            </ul>
+        </div>
+    <div class="t-shouye">
+      <div class="t-shouye-head">
+        <div  id="pindao-1" class="t-shouye-headleft"></div>
+        <div class="t-shouye-headright">
+          <ul>
+          	<li>精选</li>
+          	<li>好莱坞</li>
+          	<li>电影</li>
+          	<li>电视剧</li>
+          	<li>综艺</li>
+          	<li>娱乐</li>
+          	<li>美剧</li>
+          	<li>英剧</li>
+          	<li>时尚</li>
+          	<li>音乐</li>
+          </ul>
+        </div>
+        </div>
+<!-- 新闻一览 -->
+    <div class="t-xinwen">
+      <h2 class="t-xinwen-h2">新闻一览</h2>
+      <ul>
+      	<li>
+          <div class="t-xinwen-litop"><img src="img/ten.png"></div>
+          <div class="t-xinwen-libottom">小小阿萨挖掘了； 我么了；我企鹅结尾</div>
+      	</li>
+      	<li>
+          <div class="t-xinwen-litop"><img src="img/ten.png"></div>
+          <div class="t-xinwen-libottom">小小阿萨挖掘了； 我么了；我企鹅结尾</div>
+      	</li>
+      	<li>
+          <div class="t-xinwen-litop"><img src="img/ten.png"></div>
+          <div class="t-xinwen-libottom">小小阿萨挖掘了； 我么了；我企鹅结尾</div>
+      	</li>
+      	<li>
+          <div class="t-xinwen-litop"><img src="img/ten.png"></div>
+          <div class="t-xinwen-libottom">小小阿萨挖掘了； 我么了；我企鹅结尾</div>
+      	</li>
+      	<li>
+          <div class="t-xinwen-litop"><img src="img/ten.png"></div>
+          <div class="t-xinwen-libottom">小小阿萨挖掘了； 我么了；我企鹅结尾</div>
+      	</li>
+      	
+      </ul>
+
+    </div>
+
+    </div>
+
+
+ <script type="text/javascript">
+        document.getElementById('home').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'demo.html',
+          id:'demo.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+    })
+         document.getElementById('pindao-1').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'pindao.html',
+          id:'pindao.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+    })
+    document.getElementById('sousuo').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'sousuo.html',
+          id:'sousuo.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+    })
+    document.getElementById('person').addEventListener('tap',function(){
+      mui.openWindow({
+          url:'geren.html',
+          id:'geren.html',
+          styles:{
+            top:'45px',//新页面顶部位置
+            bottom:'45px',//新页面底部位置
+          },
+          extras:{
+          },
+          createNew:false,//是否重复创建同样id的webview，默认为false:不重复创建，直接显示
+          show:{
+            autoShow:true,//页面loaded事件发生后自动显示，默认为true
+          },
+          waiting:{
+            autoShow:true,//自动显示等待框，默认为true
+            title:'正在加载...',//等待对话框上显示的提示内容
+            options:{
+            }
+          }
+      })
+
+    })
+            
+        </script>
+
+</body>
+</html>

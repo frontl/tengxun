@@ -1,0 +1,197 @@
+*{
+padding:0;
+margin:0;
+list-style:none;
+}
+html{
+font-size: 100px;
+height:100%;
+width:100%;
+}
+body{
+	height:100%;
+	width:100%;
+font-size: 14px;
+color:#999;
+}
+@mixin username($size){
+$shebei-list:320px,360px,375px,384px,411px,540px,414px,435px,768px;
+html{
+@each $shebei in $shebei-list{
+@media screen and(min-width: $shebei){
+font-size: 100px * ($shebei/$size);
+}
+}
+}
+}
+@include username(411px);
+/*个人中心*/
+.geren{
+	height:100%;
+	width:100%;
+	overflow: auto;
+	.geren-1{
+		height:0.55rem;
+		line-height: 0.55rem;
+		width:100%;
+		border-bottom: 2px solid #3DBFFA;
+		text-align: center;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.geren-center{
+		height:auto;
+		width:100%;
+		ul{
+			height:auto;
+			width:100%;
+			margin-top:0.3rem;
+			li{
+				width:100%;
+				height:0.6rem;
+				line-height: 0.6rem;
+				border-top:1px solid #ccc;
+				border-bottom: 1px solid #ccc;
+				background:#fff;
+				a{
+					padding:0;
+					padding-left: 0.2rem;
+					height:0.6rem;
+				}
+				img{
+					height:0.42rem;
+					width:0.42rem;
+				}
+			}
+		}
+	}
+}
+/*账户登录*/
+.zhanghu{
+	height:100%;
+	width:100%;
+	overflow: auto;
+	.zhanghu-head{
+		height:0.55rem;
+		width:100%;
+		overflow: hidden;
+		border-bottom:2px solid #1CB7FD;
+		.zhanghu-headleft{
+			float:left;
+			height:100%;
+			width:0.31rem;
+			margin-top:0.15rem;
+		}
+		.zhanghu-headright{
+
+			float:left;
+			height:100%;
+			width:3.8rem;
+			line-height: 0.55rem;
+			font-size: 20px;
+			font-weight: bold;
+			color:#000;
+			text-align: center;
+		}
+	}
+			.zhanghu-center{
+			margin-top:0.2rem;
+			width:100%;
+			height:1rem;
+			padding:0.1rem 0.15rem;
+			box-sizing: border-box;
+		}
+		.zhanghu-button button{
+			width:100%;
+			height:100%;
+
+		}
+}
+/*设置*/
+.shezhi{
+	height:100%;
+	width:100%;
+	overflow: auto;
+	.shezhi-head{
+		width:100%;
+		height:0.55rem;
+		overflow: hidden;
+		border-bottom:2px solid #5CCBFE;
+		.shezhi-headleft{
+			float:left;
+			width:0.31rem;
+			height:100%;
+			margin-top:0.15rem;
+		}
+		.shezhi-headright{
+			float:right;
+			height:100%;
+			width:3.8rem;
+			line-height: 0.55rem;
+			text-align: center;
+			font-weight: bold;
+			color:#000;
+		}
+	}
+	.shezhi-ul{
+				ul{
+			height:auto;
+			width:100%;
+			margin-top:0.3rem;
+			li{
+				width:100%;
+				height:0.6rem;
+				line-height: 0.6rem;
+				background:#fff;
+				a{
+					padding:0;
+					padding-left: 0.2rem;
+					height:0.6rem;
+				}
+				img{
+					height:0.42rem;
+					width:0.42rem;
+				}
+			}
+		}
+	}
+}
+/*观看历史*/
+.view{
+	height:100%;
+	width:100%;
+	overflow: auto;
+	.view-head{
+		width:100%;
+		height:0.55rem;
+		overflow: hidden;
+		border-bottom:2px solid #5CCBFE;
+		.view-headleft{
+			float:left;
+			width:0.31rem;
+			height:100%;
+			margin-top:0.15rem;
+		}
+		.view-headcenter{
+			float: left;
+			height:100%;
+			width:3.3rem;
+			line-height: 0.55rem;
+			text-align: center;
+            font-weight: bold;
+		}
+			.view-headright{
+			float:right;
+			margin-top:0.1rem;
+			margin-right: 0.1rem;
+			height:0.3rem;
+			width:0.4rem;
+			border:1px solid #ccc;
+			line-height: 0.3rem;
+			text-align: center;
+			
+			color:#000;
+		}
+
+	}
+}

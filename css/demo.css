@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/*app*/
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  color: #999;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 77.85888px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 87.59124px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 91.24088px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 93.43066px;
+  }
+}
+
+@media screen and (min-width: 411px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 131.38686px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 100.72993px;
+  }
+}
+
+@media screen and (min-width: 435px) {
+  html {
+    font-size: 105.83942px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 186.86131px;
+  }
+}
+
+/*demo.html 首页*/
+.t-shouye {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.t-shouye .t-shouye-head {
+  height: 0.54rem;
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid blue;
+}
+
+.t-shouye .t-shouye-head .t-shouye-headleft {
+  height: 0.54rem;
+  width: 0.54rem;
+  background: red;
+  float: left;
+}
+
+.t-shouye .t-shouye-head .t-shouye-headright {
+  float: left;
+  height: 100%;
+  line-height: 0.65rem;
+  width: 3.56rem;
+  overflow-x: auto;
+}
+
+.t-shouye .t-shouye-head .t-shouye-headright ul {
+  height: 100%;
+  width: 150%;
+  overflow: auto;
+}
+
+.t-shouye .t-shouye-head .t-shouye-headright ul li {
+  margin-left: 0.1rem;
+  height: 100%;
+  float: left;
+}
+
+.t-shouye .t-xinwen {
+  height: auto;
+  width: 100%;
+  color: #000;
+}
+
+.t-shouye .t-xinwen .t-xinwen-h2 {
+  width: 100%;
+  height: 0.42rem;
+}
+
+.t-shouye .t-xinwen ul {
+  height: auto;
+  width: 100%;
+  padding: 0.05rem;
+  box-sizing: border-box;
+}
+
+.t-shouye .t-xinwen ul li {
+  /*	padding:0.2rem 0.1rem;
+				box-sizing: border-box;*/
+  height: 1.65rem;
+  width: 50%;
+  float: left;
+}
+
+.t-shouye .t-xinwen ul li .t-xinwen-litop {
+  padding: 0 0.05rem;
+  box-sizing: border-box;
+}
+
+.t-shouye .t-xinwen ul li .t-xinwen-litop img {
+  height: 100%;
+  width: 100%;
+}
+
+.t-shouye .t-xinwen ul li .t-xinwen-libottom {
+  padding: 0 0.05rem;
+  height: 0.2rem;
+  font-size: 12px;
+}
+
+/*pindao.html 频道定制*/
+.pindao {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.pindao .pindaohead {
+  height: 0.46rem;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid red;
+  margin-bottom: 0.1rem;
+}
+
+.pindao .pindaohead .pindaoleft {
+  height: 100%;
+  width: 0.3rem;
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.1rem;
+}
+
+.pindao .pindaohead h4 {
+  display: inline-block;
+  width: 3.6rem;
+  line-height: 0.46rem;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  float: left;
+}
+
+.pindao .pindaocontent {
+  height: 3.85rem;
+  width: 100%;
+}
+
+.pindao .pindaocontent ul {
+  height: 3.7rem;
+  width: 100%;
+}
+
+.pindao .pindaocontent ul li {
+  width: 0.65rem;
+  height: 0.42rem;
+  text-align: center;
+  line-height: 0.42rem;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0.07rem 0.16rem;
+}
+
+.pindao .pindaocontent1 {
+  height: 2.0rem;
+  width: 100%;
+}
+
+.pindao .pindaocontent1 ul {
+  height: auto;
+  width: 100%;
+}
+
+.pindao .pindaocontent1 ul li {
+  width: 0.65rem;
+  height: 0.42rem;
+  text-align: center;
+  line-height: 0.42rem;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0.07rem 0.16rem;
+}
+
+.pindao .pindaotip {
+  margin-left: 0.3rem;
+}
+
+.pindao b {
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+/*sousuo.html 搜索*/
+.sou {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.sou .sousuo {
+  height: 0.56rem;
+  width: 100%;
+  margin: 0.03rem 0;
+}
+
+.sou .sousuo input {
+  height: 0.46rem;
+  width: 3.5rem;
+  padding: 0.2rem;
+  margin-bottom: 0;
+}
+
+.sou h3 {
+  font-size: 16px;
+  color: #000;
+}
+
+.sou .sousuocontent {
+  height: auto;
+  width: 100%;
+}
+
+.sou .sousuocontent ul {
+  height: auto;
+  width: 100%;
+}
+
+.sou .sousuocontent ul li {
+  width: 1.15rem;
+  line-height: 0.55rem;
+  text-align: center;
+  float: left;
+  height: 0.55rem;
+  background: #fff;
+  margin-left: 0.15rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+}
+
+.oplo {
+  height: 0.6rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-family: 'iconfont';
+}
+
+.oplo ul {
+  height: 100%;
+  width: 100%;
+}
+
+.oplo ul li {
+  height: 100%;
+  line-height: 0.6rem;
+  text-align: center;
+  width: 33.3%;
+  float: left;
+  border: 1px solid #ccc;
+  font-size: 28px;
+  
+}
